@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/josephperuzzi/generic_s3_golib"
+	"github.com/joeperuzzi/generic_s3_golib"
 )
 
 func main() {

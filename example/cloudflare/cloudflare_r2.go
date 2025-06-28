@@ -9,13 +9,13 @@ import (
 	s3client "github.com/josephperuzzi/generic_s3_golib"
 )
 
-func r2main() {
+func main() {
 	cfg := s3client.Config{
-		Endpoint:       "https://[your-org-id].r2.cloudflarestorage.com",
+		Endpoint:       "https://[your-id].r2.cloudflarestorage.com",
 		Region:         "auto",
 		AccessKey:      "",
 		SecretKey:      "",
-		Bucket:         "",
+		Bucket:         "bardshare",
 		ForcePathStyle: false,
 		DisableSSL:     false,
 	}

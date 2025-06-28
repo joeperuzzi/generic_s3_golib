@@ -1,4 +1,4 @@
-module github.com/josephperuzzi/generic_s3_golib
+module github.com/joeperuzzi/generic_s3_golib
 
 go 1.21
 
