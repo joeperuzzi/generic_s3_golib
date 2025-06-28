@@ -15,7 +15,7 @@ func main() {
 		Region:         "auto",
 		AccessKey:      "",
 		SecretKey:      "",
-		Bucket:         "bardshare",
+		Bucket:         "",
 		ForcePathStyle: false,
 		DisableSSL:     false,
 	}
